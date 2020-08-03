@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <title>Barber-SHOP</title>
+</head>
+<body>
+
+<header id="top">
+
+    <div class="header">
+
+        <div class="menu" id="navbar">
+
+            <div class="logo">
+
+                BARBER-SHOP
+            </div>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox"/>
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <div class="nav-burger" id="nav-burger">
+                    <li><a class="menu__item" href="#top">Главная</a></li>
+                    <li><a class="menu__item" href="#services">Услуги</a></li>
+                    <li><a class="menu__item" href="#about">О нас</a></li>
+                    <li><a class="menu__item" href="#gallery">Галерея</a></li>
+                    <li><a class="menu__item" href="#faq">FAQ</a></li>
+                    <button class="register menu__item lk" id="lkm">Личный кабинет</button>
+                </div>
+            </div>
+
+            <div class="nav">
+                <li><a id="menu-top" class="nav-active" href="#top">Главная</a></li>
+                <li><a id="menu-services" href="#services">Услуги</a></li>
+                <li><a id="menu-about" href="#about">О нас</a></li>
+                <li><a id="menu-gallery" href="#gallery">Галерея</a></li>
+                <li><a id="menu-faq" href="#faq">FAQ</a></li>
+                <button class="register lk">Личный кабинет</button>
+            </div>
+        </div>
+        <div class="tittle">
+            <h1>Best Barber In Town</h1>
+            <h6>Добро пожаловать в наш барбершоп в самом центре Тюмени</h6>
+            <button class="bookButton book" >Записаться На Стрижку</button>
+        </div>
+        <div class="down-button">
+            <a href="#services">
+                <svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-arrow-down-circle" fill="white"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                          d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path fill-rule="evenodd"
+                          d="M4.646 7.646a.5.5 0 0 1 .708 0L8 10.293l2.646-2.647a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 0-.708z"/>
+                    <path fill-rule="evenodd" d="M8 4.5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+    <div class="header-overlay"></div>
+</header>
+<section class="price-table-holder" id="services">
+
+    <div class="price-card">
+        <div class="price-photo shave-photo">
+            <div class="price-icon">
+                <h1>The Shave</h1>
+            </div>
+            <div class="overlay"></div>
+        </div>
+
+
+        <div class="price-tittle">Бритье - От &#8381;500</div>
+        <div class="price-description">Быстро, качественно, недорого</div>
+        <div class="price-table">
+            <table>
+                <tr>
+                    <td>Как в прошлый раз</td>
+                    <td class="price">&#8381;500</td>
+                </tr>
+                <tr>
+                    <td>Как у того парня</td>
+                    <td class="price">&#8381;700</td>
+                </tr>
+                <tr>
+                    <td>Лучше чем у того парня</td>
+                    <td class="price">&#8381;1000</td>
+                </tr>
+            </table>
+        </div>
+        <div class="price-book">
+            <button class="price-button book">Записаться</button>
+        </div>
+    </div>
+    <div class="price-card">
+        <div class="price-photo beard-photo">
+            <div class="price-icon">
+                <h1>The Beard</h1>
+            </div>
+            <div class="overlay"></div>
+        </div>
+
+
+        <div class="price-tittle">Оформление бороды - От &#8381;1000</div>
+        <div class="price-description">Быстро, качественно, недорого</div>
+        <div class="price-table">
+            <table>
+                <tr>
+                    <td>Как в прошлый раз</td>
+                    <td class="price">&#8381;1000</td>
+                </tr>
+                <tr>
+                    <td>Как у того парня</td>
+                    <td class="price">&#8381;1500</td>
+                </tr>
+                <tr>
+                    <td>Лучше чем у того парня</td>
+                    <td class="price">&#8381;2000</td>
+                </tr>
+            </table>
+        </div>
+        <div class="price-book">
+            <button class="price-button book">Записаться</button>
+        </div>
+    </div>
+    <div class="price-card">
+        <div class="price-photo cut-photo">
+            <div class="price-icon">
+                <h1>The Cut</h1>
+            </div>
+            <div class="overlay"></div>
+        </div>
+
+
+        <div class="price-tittle">Стрижка - От &#8381;1000</div>
+        <div class="price-description">Быстро, качественно, недорого</div>
+        <div class="price-table">
+            <table>
+                <tr>
+                    <td>Как в прошлый раз</td>
+                    <td class="price">&#8381;1000</td>
+                </tr>
+                <tr>
+                    <td>Как у того парня</td>
+                    <td class="price">&#8381;1500</td>
+                </tr>
+                <tr>
+                    <td>Лучше чем у того парня</td>
+                    <td class="price">&#8381;2000</td>
+                </tr>
+            </table>
+        </div>
+        <div class="price-book">
+            <button class="price-button book">Записаться</button>
+        </div>
+    </div>
+</section>
+<section class="about" id="about">
+
+    <div class="container">
+        <div><h2>О нас</h2></div>
+        <h4>Почему стоит выбрать именно нас</h4>
+        <div class="about-holder">
+            <div class="about-card">
+                <div class="about-icon"><img src="./images/award.svg" alt=""></div>
+                <div class="price-tittle">Квалифицированный персонал</div>
+                <div class="price-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque illo
+                    in odit quos ratione.
+                </div>
+            </div>
+            <div class="about-card">
+                <div class="about-icon"><img src="./images/award.svg" alt=""></div>
+                <div class="price-tittle">Квалифицированный персонал</div>
+                <div class="price-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque illo
+                    in odit quos ratione.
+                </div>
+            </div>
+            <div class="about-card">
+                <div class="about-icon"><img src="./images/award.svg" alt=""></div>
+                <div class="price-tittle">Квалифицированный персонал</div>
+                <div class="price-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque illo
+                    in odit quos ratione.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="reviews" id="reviews">
+    <div class="overlay-reviews"></div>
+    <div class="container">
+        <div class="review-holder">
+            <div class="review-card">
+                <div class="review-icon"><img src="./images/qutes.svg" alt=""></div>
+                <div class="review-text">
+                    Все очень понравилось, приходите сюда, просто пушка. Мастера профессионалы, сделали все качественно,
+                    рекомендую 5 звезд! Админу добра!
+                </div>
+                <div class="review-author">Леха - Владелец Барбершопа</div>
+                <div class="stars">
+                    <img src="./images/star.svg" alt=""><img src="./images/star.svg" alt=""><img src="./images/star.svg"
+                                                                                                 alt=""><img
+                        src="./images/star.svg" alt=""><img src="./images/star.svg"
+                                                            alt="">
+                </div>
+            </div>
+            <div class="slider-dots">
+                <div class="dot"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="gallery" id="gallery">
+
+    <div class="container">
+        <h2>Наши работы</h2>
+        <h4>Немного фото довольных гостей</h4>
+        <div class="gallery-holder">
+            <div class="gallery-item"><img src="./images/barber.jpg" alt=""></div>
+            <div class="gallery-item"><img src="./images/barber.jpg" alt=""></div>
+            <div class="gallery-item"><img src="./images/barber.jpg" alt=""></div>
+            <div class="gallery-item"><img src="./images/barber.jpg" alt=""></div>
+            <div class="gallery-item"><img src="./images/barber.jpg" alt=""></div>
+            <div class="gallery-item"><img src="./images/barber.jpg" alt=""></div>
+        </div>
+        <h4>Больше фото в нашем профиле <a href="https://instagram.com">@best-barber</a></h4>
+    </div>
+</section>
+<section>
+    <div class="faq" id="faq">
+        <div class="faq-img"><img src="./images/cut.jpg" alt=""></div>
+        <div class="faq-holder">
+            <h2>Часто задаваемые вопросы</h2>
+            <div class="faq-item">
+                <div class="question">Lorem ipsum dolor.</div>
+                <div class="answer"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fuga, numquam
+                    porro
+                    repudiandae tenetur voluptatibus.</p></div>
+            </div>
+            <div class="faq-item">
+                <div class="question">Lorem ipsum dolor.</div>
+                <div class="answer"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fuga, numquam
+                    porro
+                    repudiandae tenetur voluptatibus.</p></div>
+            </div>
+            <div class="faq-item">
+                <div class="question">Lorem ipsum dolor.</div>
+                <div class="answer"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fuga, numquam
+                    porro
+                    repudiandae tenetur voluptatibus.</p></div>
+            </div>
+            <div class="faq-item">
+                <div class="question">Lorem ipsum dolor.</div>
+                <div class="answer"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fuga, numquam
+                    porro
+                    repudiandae tenetur voluptatibus.</p></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contacts" id="contacts">
+    <div class="container">
+        <div class="contact-holder">
+            <div class="contact-card">
+                <div class="contact-icon"><img src="./images/clock.svg" alt=""></div>
+                <div class="price-tittle">Часы работы</div>
+                <div class="contact-text">
+                    <p>Понедельник - Пятница: 9.00-18.00</p>
+                    <p>Суббота - Воскресенье: 10.00-17.00</p>
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon"><img src="./images/share.svg" alt=""></div>
+                <div class="price-tittle">Мы в социальных сетях</div>
+                <div class="contact-social">
+                    <img src="./images/instagram-logo.svg" alt="">
+                    <img src="./images/instagram-logo.svg" alt="">
+                    <img src="./images/instagram-logo.svg" alt="">
+                    <img src="./images/instagram-logo.svg" alt="">
+                </div>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon"><img src="./images/contacts.svg" alt=""></div>
+                <div class="price-tittle">Контакты</div>
+                <div class="contact-text">
+
+                    <p>best-barber@barber.com</p>
+                    <p>8 800 55 35 35</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="pop-up-holder" id="pop-up-holder">
+    <div class="pop-up">
+        <div class="close-button" >
+            <svg  id="close-button" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-plus" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5H4a.5.5 0 0 1 0-1h3.5V4a.5.5 0 0 1 .5-.5z"/>
+                <path fill-rule="evenodd" d="M7.5 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0V8z"/>
+            </svg>
+        </div>
+        <div class="form" id="login-or-register">
+            <button class="form-button" id="register-button" >Создать новый аккаунт</button>
+            <button class="form-button" id="login-button">Войти в существующий</button>
+            <button class="form-button" id="guest-button">Продолжить без аккаунта</button>
+        </div>
+        <div class="form" id="register-form-holder">
+            <h2>Регистрация нового пользователя</h2>
+            <form action="" id="register-form">
+                <input type="email" name="mail" placeholder="Электронная почта" required> <br>
+                <input type="text" name="firstname" placeholder="Имя"><br>
+                <input type="text" name="secondname" placeholder="Фамилия"><br>
+                <input type="tel" name="phone" placeholder="Телефон"><br>
+                <input type="password" name="pass" placeholder="Пароль"><br>
+                <button class="form-button" onclick="registerUser(event)">Зарегистрироваться</button>
+            </form>
+        </div>
+
+        <div class="form" id="login-form-holder">
+            <h2>Вход в личный кабиент</h2>
+            <form action="" id="login-form">
+                <input type="email" name="mail" placeholder="Электронная почта" required><br>
+                <input type="password" name="pass" placeholder="Пароль"><br>
+                <button class="form-button" onclick="loginUser(event)">Войти</button>
+            </form>
+        </div>
+        <div class="form" id="booking-form-holder">
+            <h2>Вход в личный кабиент</h2>
+            <form action="" id="booking-form">
+                 <div class="time">9:30</div>
+                <div class="time">10:30</div>
+                <div class="time">11:00</div>
+                <button class="form-button" onclick="loginUser(event)">Записаться</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+<script src="./js/script.js"></script>
+</html>
